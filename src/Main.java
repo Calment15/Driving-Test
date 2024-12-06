@@ -12,11 +12,9 @@ public class Main {
 		counter = rtq.questions(counter, sc);
 		
 		if (counter >= 4) {
-			System.out.println("You pass with a " + counter + " out of 5");
+			System.out.println("You pass with a " + counter + " out of 5!");
 		}
-		
-		
-		System.out.println("You have scored a " + counter + " out of 5!");
-			
+
+		else {System.out.println("You have scored a " + counter + " out of 5, you did not pass");}
 	}
 }
